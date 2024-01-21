@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Cafe from "./components/Cafe";
+import Cannoli from "./components/Cannoli";
+import Cereza from "./components/Cereza";
+import Cheesecake from "./components/Cheesecake";
+import Chocolate from "./components/Chocolate";
+import Fruta from "./components/Fruta";
+import Macarron from "./components/Macarron";
+import Oreo from "./components/Oreo";
+import Pancake from "./components/Pancake";
+import Split from "./components/Split";
+import Tiramisu from "./components/Tiramisu";
+import Vainilla from "./components/Vainilla";
+import Navegacion from './components/Navegacion';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+      <Route path='/Cafe' Component={Cafe}/>
+      <Route path='/Cannoli' Component={Cannoli}/>
+      <Route path='/Cereza' Component={Cereza}/>
+      <Route path='/Cheesecake' Component={Cheesecake}/>
+      <Route path='/Chocolate' Component={Chocolate}/>
+      <Route path='/Fruta' Component={Fruta}/>
+      <Route path='/Macarron' Component={Macarron}/>
+      <Route path='/Oreo' Component={Oreo}/>
+      <Route path='/Pancake' Component={Pancake}/>
+      <Route path='/Split' Component={Split}/>
+      <Route path='/Tiramisu' Component={Tiramisu}/>
+      <Route path='/Vainilla' Component={Vainilla}/>
+      </Routes>
+      <Navegacion/>
+     
+    </Router>
   );
 }
 

@@ -3,8 +3,8 @@ import Oreo2 from "../images/oreo.jpg";
 
 const Oreo = () => {
   return (
-    <div>Oreo
-        <img src={Oreo2} alt=""/>
+    <div className='container'>Oreo
+        <img src={Oreo2} alt="" className='imagen'/>
     </div>
   )
 }

@@ -3,8 +3,8 @@ import Split2 from "../images/split.jpg";
 
 const Split = () => {
   return (
-    <div>Split
-        <img src={Split2} alt=""/>
+    <div className='container'>Split
+        <img src={Split2} alt="" className='imagen'/>
     </div>
   )
 }

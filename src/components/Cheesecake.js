@@ -3,8 +3,8 @@ import Cheesecake2 from "../images/cheescake.jpg";
 
 const Cheesecake = () => {
   return (
-    <div>Cheesecake
-        <img src={Cheesecake2} alt=""/>
+    <div className='container'>Cheesecake
+        <img src={Cheesecake2} alt="" className='imagen'/>
     </div>
   )
 }

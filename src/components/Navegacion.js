@@ -15,85 +15,85 @@ import Vainilla3 from "../images/vainilla.jpg";
 
 const Navegacion = () => {
   return (
-    <div className='container mt-3'>
-        <Link to="/Cafe">
+    <div className='container mt-3 padre'>
+        <Link to="/Cafe" className='links'>
             <figure>
                 <img className='tamaño-img' src={Cafe3} alt=''/>
                 <figcaption>Cafe</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Cannoli">
+        <Link to="/Cannoli" className='links'>
             <figure>
                 <img className='tamaño-img' src={Cannoli3} alt=''/>
                 <figcaption>Cannoli</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Cereza">
+        <Link to="/Cereza" className='links'>
             <figure>
                 <img className='tamaño-img' src={Cereza3} alt=''/>
                 <figcaption>Cereza</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Cheesecake">
+        <Link to="/Cheesecake" className='links'>
             <figure>
                 <img className='tamaño-img' src={Cheesecake3} alt=''/>
                 <figcaption>Cheesecake</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Chocolate">
+        <Link to="/Chocolate" className='links'>
             <figure>
-                <img src={Chocolate3} alt=''/>
+                <img className='tamaño-img' src={Chocolate3} alt=''/>
                 <figcaption>Chocolate</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Fruta">
+        <Link to="/Fruta" className='links'>
             <figure>
                 <img className='tamaño-img' src={Fruta3} alt=''/>
                 <figcaption>Fruta</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Macarron">
+        <Link to="/Macarron" className='links'>
             <figure>
                 <img className='tamaño-img' src={Macarron3} alt=''/>
                 <figcaption>Macarron</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Oreo">
+        <Link to="/Oreo" className='links'>
             <figure>
                 <img className='tamaño-img' src={Oreo3} alt=''/>
                 <figcaption>Oreo</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Pancake">
+        <Link to="/Pancake" className='links'>
             <figure>
                 <img className='tamaño-img' src={Pancake3} alt=''/>
                 <figcaption>Pancake</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Split">
+        <Link to="/Split" className='links'>
             <figure>
                 <img className='tamaño-img' src={Split3} alt=''/>
                 <figcaption>Split</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Tiramisu">
+        <Link to="/Tiramisu" className='links'>
             <figure>
                 <img className='tamaño-img' src={Tiramisu3} alt=''/>
                 <figcaption>Tiramisu</figcaption>
             </figure>
         </Link>
 
-        <Link to="/Vainilla">
+        <Link to="/Vainilla" className='links'>
             <figure>
                 <img className='tamaño-img' src={Vainilla3} alt=''/>
                 <figcaption>Vainilla</figcaption>

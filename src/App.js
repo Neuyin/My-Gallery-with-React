@@ -18,6 +18,10 @@ import Navegacion from './components/Navegacion';
 function App() {
   return (
     <Router>
+      <div className='container'>
+          {/* Al colocar container, text-center, etc, estamos usando clases de Bootstrap */}
+          <h1 className='text-center mt-3 mb-3'>Dessert gallery</h1>
+      </div>
       <Routes>
       <Route path='/Cafe' Component={Cafe}/>
       <Route path='/Cannoli' Component={Cannoli}/>
